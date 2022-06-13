@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">fuzzyApps</string>
+    <string name="perintaan1">fuzzyDefuzzy</string>
+    <string name="permintaan">Range data variabel permintaan yaitu minimal 1000 pcs roti dan maksimal 1600 pcs roti. Alasannya karena jika permintaan kurang dari 1000 pcs untung yang didapatkan sedikit dan jika lebih dari 1600 pcs karyawan tidak sanggup.</string>
+    <string name="persediaan">Range data variabel persediaan yaitu minimal 600 pcs roti dan maksimal 900 pcs roti. Alasannya karena jika persediaan kurang dari 600 pcs maka produksi roti yang akan dihasilkan semakin banyak dan jika lebih dari 900 pcs roti takutnya mubadzir</string>
+    <string name="fuzzy">FuzzyApss merupakan aplikasi untuk menentukan jumlah produksi pada sebuah pabrik roti dimana dalam penentuan jumlah produksi roti berdasarkan data persediaan dan permintaan. Dengan ini, sebuah pabrik roti akan dapat memenuhi permintaan pasar dengan jumlah yang sesuai dengan memperhatikan persediaan barang sehingga bisa mendapat keuntungan yang maksimal. Algoritma yang digunakan yaitu Fuzzy Logic dengan metode Mamdany. Proses pembuatan aplikasi ini menggunakan Bahasa pemrograman Kotlin dan tools yang digunakan yaitu Android Studio.</string>
+    <string name="produksi">Ada 3 output yaitu sedikit,sedang,banyak : Untuk mendapatkan hasil sedikit = 2000-2200, sedang = 2200-2400, banyak = 2400-2600</string>
+</resources>

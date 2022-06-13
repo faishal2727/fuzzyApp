@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparant"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@color/transparant"
+        android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/alert"/>
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ada yang Tidak Beres Gaes !!!"
+                    android:textSize="18sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:text="Pastikan Nilai Permintaan 1000 - 1600 dan "/>
+                <TextView
+                    android:id="@+id/desc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:text="Persediaan 600 - 900"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+                    <soup.neumorphism.NeumorphButton
+                        android:id="@+id/detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:text="Detail"
+                        android:fontFamily="@font/poppins"
+                        style="@style/Widget.Neumorph.Button"/>
+                    <soup.neumorphism.NeumorphButton
+                        android:id="@+id/btnOk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:text="OK"
+                        android:fontFamily="@font/poppins"
+                        style="@style/Widget.Neumorph.Button"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+    </LinearLayout>
+</RelativeLayout>
