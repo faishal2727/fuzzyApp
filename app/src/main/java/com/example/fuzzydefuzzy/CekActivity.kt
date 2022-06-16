@@ -178,9 +178,9 @@ class CekActivity : AppCompatActivity() {
                 } else if (i == "Sedang" && j == "Banyak") {
                     stringInference += "Sedang"
                 } else if (i == "Besar" && j == "Sedikit") {
-                    stringInference += "Sedikit"
+                    stringInference += "Banyak"
                 } else if (i == "Besar" && j == "Sedang") {
-                    stringInference += "Sedang"
+                    stringInference += "Banyak"
                 } else if (i == "Besar" && j == "Banyak") {
                     stringInference += "Banyak"
                 } else {
